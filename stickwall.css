@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "indiaa";
+    src: url(Gelion-Medium.woff);
+}
+
+@font-face {
+    font-family: "small";
+    src: url(Gelion-Regular.woff);
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "indiaa";
+    /* font-family: "small"; */
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    gap: 5%;
+    background-color: white;
+}
+
+
+
+
+.all-task-main-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.menu {
+    width: 30%;
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+}
+
+.menu-div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-div h2 {
+    font-weight: 500;
+
+}
+
+.menu-div i {
+    font-weight: 600;
+    font-size: large;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.search input{
+
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 80%;
+    font-family: "indiaa";
+    font-size: 14px;
+}
+
+.task-h4 {
+    font-weight: 600;
+    font-size: small;
+    padding-left: 10px;
+}
+
+.main-all-task {
+    width: 100%;
+}
+
+.upcoming-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.inner_upcoming-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.inner_upcoming-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.upcoming-task h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.Today-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.Today-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.Today-inner-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.Today-task h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.sticky-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-top: 8px;
+}
+
+.sticky-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-right: 8px;
+
+}
+
+.sticky-inner-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.sticky-task h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.calender {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.calnder-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.calnder-inner-task h4 {
+    font-weight: 500;
+}
+
+
+.frist-line-div {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frist-line {
+
+    height: 2px;
+    border: 2px solid lightskyblue;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.lists-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.lists-div h4 {
+    font-weight: 500;
+}
+
+
+.personal {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.personal-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.personal-color {
+
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 2px;
+}
+
+.personal-inner-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.personal h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.work-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.work-color {
+
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 2px;
+}
+
+.work-inner-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.work h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.Add {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.Add-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.Add-inner-task i {
+
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.Add-inner-task button {
+    text-decoration: none;
+    color: black;
+    height: 25px;
+    width: 100px;
+    font-family: "india";
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    font-size: 600;
+    border: 2px solid black;
+    border: none;
+}
+
+.Add-inner-task button:hover {
+    background-color: black;
+    color: wheat;
+    transform: scale(1.05);
+    font-family: "india";
+    font-weight: 200;
+}
+
+.line-hr2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-hr2 hr {
+    height: 2px;
+    width: 90%;
+    border: 2px solid lightskyblue;
+    border-radius: 2px;
+}
+
+.last-elemnt {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.seting-icon {
+    display: flex;
+    gap: 15px;
+    bottom: 0;
+}
+
+.seting-icon i {
+    font-weight: 700;
+}
+
+.sign-out {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.signt-icon {
+    display: flex;
+    gap: 15px;
+    bottom: 0;
+}
+
+.signt-icon i {
+    font-weight: 700;
+}
+
+.gridd {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.maincontiner {
+    /* padding-top: 50px; */
+    padding: 20px;
+    border: 3px solid lightblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.iteam {
+    height: fit-content;
+
+    border-radius: 15px;
+    padding: 20px;
+    color: black;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#item1 {
+    background-color: rgb(99, 99, 97);
+    height: 200px;
+    width: 200px;
+
+}
+
+
+#item2 {
+    background-color: rgb(107, 91, 91);
+    height: 200px;
+    width: 200px;
+
+}
+
+#item3 {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+}
+
+#item4 {
+    background-color: rgb(217, 217, 151);
+    height: 200px;
+    width: 200px;
+}
+
+#item5 {
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+}
+
+#item5 {
+    background-color: rgb(125, 125, 41);
+    height: 200px;
+    width: 200px;
+}
+
+#item6 {
+    background-color: rgb(72, 72, 24);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    font-weight: bolder;
+}
+

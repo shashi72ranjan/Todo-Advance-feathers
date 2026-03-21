@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "add";
+    src: url(Gelion-Regular.woff);
+}
+body{
+    width: 100%;
+    font-family: "add";
+
+}
+
+nav{
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: lightgrey;
+    border-radius: 5px;
+    /* height: 100vh; */
+    padding: 20px;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading i{
+    font-weight: 900;
+}
+
+.inputss{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputss input{
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    font-family: "add";
+    outline: none;
+}
+
+.inputss textarea{
+    height: 80px;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    font-family: "add";
+    outline: none;
+}
+
+.list{
+     padding: 10px;
+    /* display: flex; */
+    gap: 80px; 
+}
+
+.list h3{
+    font-weight: 600;
+}
+
+.list select{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+    font-family: "add";
+}
+
+.save-cncel-btn{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.save-cncel-btn button{
+    height: 40px;
+    width: 100px;
+    font-family: "add";
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(100, 100, 96);
+    font-weight: 700;
+}
+
+.save-cncel-btn button:hover{
+      background-color: black;
+    color: wheat;
+    transform: scale(1.05);
+    font-family: "add";
+    font-weight: 200;
+}
+
+.save-cncel-btn .cancel-btn{
+    background-color: #fff;
+}

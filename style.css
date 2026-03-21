@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "india";
+    src: url(Gelion-Medium.woff);
+
+}
+
+
+body{
+background-color: rgb(250, 246, 246);
+width: 100%;
+font-family: "india";
+}
+.frist-section{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    padding: 30px;
+    justify-content: space-between;
+}
+.left{
+    color: white;
+    min-height: 100%;
+    display: flex;
+    width: 40%;
+    background-color: black;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.right{
+    min-height: 100%;
+    display: flex;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+   
+}
+
+.lstH2{
+    /* background-color: #e40d0d; */
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+.lstH1{
+    padding-left: 25px;
+    display: flex; 
+}
+.left img{
+    padding-left: 50px;
+    height: 500px;
+    width: 500px;
+    transform: rotate(3deg);
+}
+
+.right h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 230px;
+}
+
+.right h5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 80px;
+   font-weight: lighter;
+}
+
+.insidebtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.right button{
+     height: 40px;
+    width: 300px;
+    background-color: #e5bf35;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "india";
+   
+}
+.right button:hover{
+     background-color: black;
+    color: wheat;
+    transform: scale(1.05);
+    font-family: "india";
+    font-weight: 200;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    transition-duration: 1s;
+}
+.link a{
+    color: black;
+    
+    text-decoration: none;
+}
+.right-sign{
+     min-height: 100%;
+    display: flex;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.right-sign h1{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    
+}
+
+.input-Sign{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.right-sign input{
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+     outline: none;
+    border: 2px solid lightgray;
+    gap: 10px;
+    font-family: "india";
+}
+
+.btn-Sign{
+     width: 70%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 35px;
+}
+
+.btn-Sign button{
+       height: 40px;
+    width: 400px;
+    background-color: #e5bf35;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "india";
+    font-size: medium;
+}
+.btn-Sign button:hover{
+     background-color: black;
+    color: wheat;
+    transform: scale(1.05);
+    font-family: "india";
+    font-weight: 200;
+}
+
+.or-cls{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 200px;
+display: flex;
+/* justify-content: space-between; */
+gap: 25px;
+}
+
+.or-cls h5{
+    font-weight:500px;
+}
+hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3px;
+    background-color: lightgray;
+}
+
+.hr1st{
+    margin-top: 10px;
+    width: 35%;
+}
+.hr2nd{
+    margin-top: 10px;
+    width: 35%;
+}
+
+.btn-ggle-facebk{
+    /* padding: 20px; */
+    display: flex;
+    gap: 100px;
+
+}
+
+.btn-ggle-facebk button{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    font-family: "india";
+    border: 2px solid lightgray;
+}
+
+.btn-ggle-facebk button:hover{
+     background-color: black;
+    color: wheat;
+    transform: scale(1.05);
+    font-family: "india";
+    font-weight: 200;
+    
+}
+
+.sign-up{
+    padding: 10px;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.sign-up h5{
+    font-weight: 550;
+    font-size:medium;
+    color: lightseagreen;
+}
+.sign-up a{
+    font-weight: 550;
+    font-size:medium;
+    color: lightseagreen;
+    text-decoration: none;
+}

@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "indiaa";
+    src: url(Gelion-Medium.woff);
+}
+
+@font-face {
+    font-family: "small";
+    src: url(Gelion-Regular.woff);
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "indiaa";
+    /* font-family: "small"; */
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    gap: 5%;
+}
+
+.menu {
+    width: 30%;
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+}
+
+.menu-div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-div h2 {
+    font-weight: 500;
+
+}
+
+.menu-div i {
+    font-weight: 600;
+    font-size: large;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.search input{
+
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 80%;
+    font-family: "indiaa";
+    font-size: 14px;
+}
+
+
+
+
+
+
+.task-h4 {
+    font-weight: 600;
+    font-size: small;
+    padding-left: 10px;
+}
+
+.main-all-task {
+    width: 100%;
+}
+
+.upcoming-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.inner_upcoming-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.inner_upcoming-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.upcoming-task h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.Today-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.Today-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.Today-inner-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.Today-task h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.sticky-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-top: 8px;
+}
+
+.sticky-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-right: 8px;
+
+}
+
+.sticky-inner-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.sticky-task h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.calender {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.calnder-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.calnder-inner-task h4 {
+    font-weight: 500;
+}
+
+
+.frist-line-div {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frist-line {
+
+    height: 2px;
+    border: 2px solid lightskyblue;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.lists-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.lists-div h4 {
+    font-weight: 500;
+}
+
+
+.personal {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.personal-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.personal-color {
+
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 2px;
+}
+
+.personal-inner-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.personal h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.work-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.work-color {
+
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 2px;
+}
+
+.work-inner-task a {
+    text-decoration: none;
+    color: black;
+}
+
+.work h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.Add {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.Add-inner-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.Add-inner-task i {
+
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.Add-inner-task button {
+    text-decoration: none;
+    color: black;
+    height: 25px;
+    width: 100px;
+    font-family: "india";
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    font-size: 600;
+    border: 2px solid black;
+    border: none;
+}
+
+.Add-inner-task button:hover {
+    background-color: black;
+    color: wheat;
+    transform: scale(1.05);
+    font-family: "india";
+    font-weight: 200;
+}
+
+.line-hr2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-hr2 hr {
+    height: 2px;
+    width: 90%;
+    border: 2px solid lightskyblue;
+    border-radius: 2px;
+}
+
+.last-elemnt {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.seting-icon {
+    display: flex;
+    gap: 15px;
+    bottom: 0;
+}
+
+.seting-icon i {
+    font-weight: 700;
+}
+
+.sign-out {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.signt-icon {
+    display: flex;
+    gap: 15px;
+    bottom: 0;
+}
+
+.signt-icon i {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.Today-list {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee9e9;
+    border-radius: 10px;
+}
+
+.heading {
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+}
+
+.heading h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.input-today-task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.input-today-task input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 80%;
+    font-family: "indiaa";
+    font-size: 14px;
+}
+
+.frist-task {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.cheakList-Task {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.cheakList-Task h4 {
+    font-weight: 500;
+}
+
+.cheakList-Task input {
+    border: 2px solid lightcyan;
+}
+
+.frist-task i {
+    font-weight: 900;
+    font-size: medium;
+}
+
+.all-function-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clander-personl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+
+}
+
+.calnder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.calnder h4 {
+    font-weight: 500;
+}
+
+.hrdivs {
+    padding: 0px 5px;
+}
+
+.hrdivs hr {
+    height: 30px;
+    border: 2px solid lightblue;
+}
+
+
+.color-div {
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+    background-color: red;
+}
+
+.personal-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.personal-div h4 {
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.full-task-details {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 20px;
+    /* display: none; */
+}
+
+.task-iformation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-iformation h2 {
+    font-weight: 600;
+}
+
+.task-iformation i {
+    font-size: large;
+    font-weight: 700;
+}
+
+.pervious-data-edit {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pervious-data-edit input {
+    border: 2px solid lightblue;
+    height: 50px;
+    border-radius: 5px;
+    font-family: "indiaa";
+}
+
+.pervious-data-edit textarea {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    font-family: "indiaa";
+    height: 100px;
+}
+
+
+.main-due-list {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listss {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.listss h3 {
+    font-weight: 500;
+}
+
+.listss select {
+    border: 2px solid lightblue;
+    height: 30px;
+    width: 150px;
+    font-family: "indiaa";
+    border-radius: 6px;
+}
+
+.Due-date {
+    padding-top: 15px;
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    /* padding: 0px 0px 10px; */
+}
+
+.Due-date h3 {
+    font-weight: 400;
+}
+
+.Due-date select {
+    border: 2px solid lightblue;
+    height: 30px;
+    width: 150px;
+    font-family: "indiaa";
+    border-radius: 6px;
+}
+
+.save-delete-btn {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.save-delete-btn button {
+    height: 40px;
+    width: 200px;
+    background-color: #e5bf35;
+    font-family: "indiaa";
+    border-radius: 10px;
+    border: none;
+}
+
+.save-delete-btn button:hover {
+    background-color: black;
+    color: wheat;
+    transform: scale(1.05);
+    font-family: "india";
+    font-weight: 200;
+}
+
+.save-delete-btn .save-btn {
+    background-color: rgb(166, 143, 143);
+}
