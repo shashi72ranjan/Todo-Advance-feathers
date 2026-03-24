@@ -175,15 +175,16 @@ nav{
     padding: 0px 10px; 
 }
 
-.calnder-inner-task{
+.calnder-inner-task {
     display: flex;
     justify-content: space-between;
     gap: 15px;
+    color: black;
 }
 
-.calnder-inner-task h4{
-    font-weight: 500;
-}
+.calnder-inner-task a{
+ text-decoration: none;
+    color: black;}
 
 
 .frist-line-div{

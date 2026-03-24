@@ -181,8 +181,9 @@ nav{
     gap: 15px;
 }
 
-.calnder-inner-task h4{
-    font-weight: 500;
+.calnder-inner-task a{
+    text-decoration: none;
+    color: black;
 }
 
 

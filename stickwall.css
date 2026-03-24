@@ -170,12 +170,12 @@ nav {
 
 }
 
-.sticky-inner-task a {
+.sticky-inner-task a{
     text-decoration: none;
     color: black;
 }
 
-.sticky-task h3 {
+.sticky-task h3{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,7 +199,8 @@ nav {
 }
 
 .calnder-inner-task h4 {
-    font-weight: 500;
+    text-decoration: none;
+    color: black;
 }
 
 
