@@ -79,6 +79,19 @@ nav {
 
 
 
+.fatherof-all-div{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.fatherof-all-div p{
+    /* display: none; */
+     justify-content: center;
+    align-items: center;
+
+}
+
 
 
 .task-h4 {
@@ -443,6 +456,9 @@ nav {
     font-size: 14px;
 }
 
+.input-today-task a{
+    text-decoration: none;
+}
 .frist-task {
     display: flex;
     justify-content: space-between;

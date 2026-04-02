@@ -405,6 +405,7 @@ nav {
     flex-direction: column;
     background-color: #eee9e9;
     border-radius: 10px;
+    height: 100vh;
 }
 
 .heading {

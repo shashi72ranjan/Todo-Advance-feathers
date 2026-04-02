@@ -19,6 +19,7 @@ body{
     width: 100%;
 }
 
+
 nav{
     display: flex;
     /* justify-content: space-between; */
@@ -142,6 +143,27 @@ nav{
     width: 30px;
     height: 30px;
 }
+
+
+
+
+
+.fatherof-all-div{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.description{
+    /* display: none;
+     */
+     padding-left: 20px;
+} 
+
+
+
+
+
 .sticky-task{
     display: flex;
     justify-content: space-between;
@@ -302,7 +324,7 @@ nav{
     gap: 15px;
     align-items: center;
 }
-.Add-inner-task i{
+.Add-inner-task a{
 
    font-weight: 600;
    color: lightseagreen;
@@ -426,6 +448,10 @@ nav{
     font-size: 14px;
 }
 
+
+.input-today-task a{
+    text-decoration: none;
+}
 .frist-task{
     display: flex;
     justify-content: space-between;
@@ -451,12 +477,11 @@ nav{
 .all-function-div{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .clander-personl{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding:0px 35px;
     

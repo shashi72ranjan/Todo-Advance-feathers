@@ -21,7 +21,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
-section{
+form{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -40,6 +40,11 @@ section{
 
 .heading i{
     font-weight: 900;
+}
+
+.heading a{
+    text-decoration: none;
+    color: black;
 }
 
 .inputss{
@@ -85,6 +90,15 @@ section{
     font-family: "add";
 }
 
+.list input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+    font-family: "add";
+    font-weight: bold;
+}
+
 .save-cncel-btn{
     padding: 20px;
     display: flex;
@@ -113,4 +127,37 @@ section{
 
 .save-cncel-btn .cancel-btn{
     background-color: #fff;
+}
+
+.homebtn{
+    display: flex;
+    justify-content: center;
+    
+}
+.homebtn button{
+    height: 40px;
+    width: 100px;
+    font-family: "add";
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(236, 236, 90);
+    font-weight: 700;
+}
+
+.homebtn .saveTskbtn button:hover{
+    color: wheat;
+    transform: scale(1.05);
+    font-family: "add";
+    font-weight: 200;
+}
+
+.homebtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.save-cncel-btn a{
+    text-decoration: none;
+    color: black;
 }
